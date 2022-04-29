@@ -35,8 +35,8 @@ namespace BeattiePics
                     if(!File.Exists(outPath))
                     {
                         File.Copy(picPath, outPath);
-                    }                    
-                    Console.WriteLine($"Copied {first} {last}'s image to {outPath}");
+                        Console.WriteLine($"Copied {first} {last}'s image to {outPath}");
+                    }
                 }
                 catch (Exception ex)
                 {
